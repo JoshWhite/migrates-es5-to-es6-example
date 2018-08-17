@@ -1,0 +1,1 @@
+export { default as addOne } from './src/addOne'
