@@ -14,9 +14,9 @@ export default {
 	input: "index.js",
 
 	output: {
-		file: "dist/myLib.js",
+		file: "dist/index.js",
 		format: "umd",
-		name: "myLib"
+		name: "myUMDLibrary"
 	}
 
 };

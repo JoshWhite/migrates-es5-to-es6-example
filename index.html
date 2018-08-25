@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Migrating ES5 to ES6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="src/modular/dist/index.js"></script>
+    <script src="src/myNameSpace.js"></script>
+
+    <script>
+        setTimeout(function() {
+
+            alert('addOne method called via myNameSpace.addOne: ' + myNameSpace.addOne(100))
+        }, 1000);
+        
+        $( document ).ready(function() {
+            myNameSpace.addMyNameToTheDOM()
+        });
+
+    </script>
+</head>
+<body>
+    <h1>Migrating ES5 to ES6</h1>
+</body>
+</html>
