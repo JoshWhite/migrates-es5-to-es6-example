@@ -23,6 +23,7 @@ var myNameSpace = (function() {
     }
 })()
 
+//THIS IS WHERE THE MAGIC HAPPENS
 myNameSpace = Object.assign(myUMDLibrary, myNameSpace)
 
 myNameSpace.addOne(1) // 2 
